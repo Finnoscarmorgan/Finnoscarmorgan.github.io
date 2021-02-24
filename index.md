@@ -1,5 +1,5 @@
 ---
 layout: home
-home_text: Hey, I think you stole my dog - John Wick
+home_text: I am trying to change the website
 title: Fiannuala Morgan
 ---

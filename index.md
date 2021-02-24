@@ -1,5 +1,5 @@
 ---
 layout: home
-home_text: I am trying to change the website...
+home_text: please change!
 title: Fiannuala Morgan
 ---

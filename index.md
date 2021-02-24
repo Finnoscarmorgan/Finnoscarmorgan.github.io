@@ -1,5 +1,5 @@
 ---
 layout: home
-home_text: Can I change this text?
+home_text: Geospatial analysis of 19th century literature
 title: Fiannuala Morgan
 ---

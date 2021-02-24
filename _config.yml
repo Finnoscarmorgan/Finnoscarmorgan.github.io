@@ -1,6 +1,6 @@
-resume_url: "Resume.pdf"
-author_name: "John Doe"
-url: johndoe.com
+resume_url: "Academic_CV_Fiannuala_Morgan.pdf"
+author_name: "Fiannual Morgan"
+url: fiannualamorgan.com
 
 plugins:
   - jekyll-seo-tag

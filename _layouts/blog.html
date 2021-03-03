@@ -1,46 +1,23 @@
 ---
 layout: description
-title: Explore
-pagetype: blog
+permalink: /blog/
+title: Blog
 ---
-<!-- This loops through the paginated posts -->
 
 
-{% if paginator.total_posts == 0 %}
-    <p>No posts right now.</p>
-{% else %}
-<div class="blogPage-categoryList">
-    <ul>
-    <li><a href="{{ "/categories/" | relative_url }}">Categories</a> : </li>
-    {% for category in site.categories %}
-        {% capture category_name %}{{ category | first }}{% endcapture %}
-        <li><a href="{{"/categories/#" | append: category_name | relative_url}}">{{category_name}}</a></li>
+<div id="archives">
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      &nbsp;&nbsp;<a href="{{ post.url | relative_url }}">{{post.title}} - {{ post.date | date_to_string }}</a>
+    </article>
+    <br>
     {% endfor %}
-</ul>
+  </div>
+{% endfor %}
 </div>
-<ul class="blog-list">
-    {% for post in paginator.posts %}
-        <li>
-            <a class="blog-heading" href="{{ post.url | relative_url }}">{{ post.title }}</a><span class="date">{{ post.date | date_to_string }}</span>
-            <div class="excerpt">{{ post.excerpt }}</div>
-        </li>
-    {% endfor %}
-</ul>
-{% endif %}
-
-<hr>
-{% if paginator.total_pages > 1 %}
-<ul>
-
-    {% if paginator.previous_page %}
-        <li>
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-        </li>
-    {% endif %}
-    {% if paginator.next_page %}
-        <li>
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-        </li>
-    {% endif %}
-</ul>
-{% endif %}

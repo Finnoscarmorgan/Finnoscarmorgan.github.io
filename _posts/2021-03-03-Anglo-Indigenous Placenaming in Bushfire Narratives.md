@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title : Bushfire Map
+title : Anglo-Indigenous Place-naming in Bushfire Narratives
 categories: [Projects]
 ---
 <p style="text-align: center;"><iframe width="100%" height="720" frameborder="0" src="https://finnoscarmorgan.carto.com/builder/270eb76c-37cd-4ce9-9c59-2a0f2b85d28e/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></p>

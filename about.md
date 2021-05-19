@@ -8,4 +8,4 @@ permalink: /about/
 
 `A large part of my work is learning rudimentary programming skills, if you feel bad you can't code, don't worry, I think everyone does, including programmers.`
 
-> "“Do not worry about your difficulties in Mathematics. I can assure you mine are still greater. — ALbert Einstein”
+> "“Do not worry about your difficulties in Mathematics. I can assure you mine are still greater. — Albert Einstein”

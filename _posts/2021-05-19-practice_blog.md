@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title : Please Insex my Site
+title : Please Index my Site
 categories: [Blog]
 ---
 

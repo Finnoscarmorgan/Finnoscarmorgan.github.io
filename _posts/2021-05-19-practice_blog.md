@@ -5,4 +5,4 @@ title : Practice Ideas
 categories: [Blog]
 ---
 
-just seeing if I can make this work
+I'm waiting for Google to index my website. 
